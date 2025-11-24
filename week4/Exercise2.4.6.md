@@ -83,7 +83,8 @@ Constant multiple rule:
 
 $$
 \begin{aligned}
-\\ \text{Let } g(x) &= C \\g'(x) &= 0\\
+\\ \text{Let } g(x) &= C \\
+g'(x) &= 0 \\
 \frac{d}{dx}[Cf(x)]
 &= \frac{d}{dx}[f(x)g(x)] \\
 &= f(x)\frac{d}{dx}g(x) + g(x)\frac{d}{dx}f(x) \\
@@ -156,7 +157,6 @@ $$
 \begin{aligned}
 \text{Let } u &= \|\mathbf{x}\|_2^2 = \mathbf{x}^T\mathbf{x} \\
 f(x) &= \sqrt{u} = u^{1/2} \\
-
 \text{Gradient } 
 &= \nabla f \\
 &= \frac{df}{du} \nabla u \\
@@ -164,11 +164,9 @@ f(x) &= \sqrt{u} = u^{1/2} \\
 &= \frac{1}{2\sqrt{u}} \nabla \mathbf{x}^T\mathbf{x} \\
 &= \frac{1}{2\|\mathbf{x}\|_2} 2\mathbf{x} \\
 &= \frac{\mathbf{x}}{\|\mathbf{x}\|} \\
-
 \text{For } x &= 0, \\
 \text{Gradient }
 &= \frac{0}{0} \text{which is undefined}
-
 \end{aligned}
 $$
 
@@ -186,7 +184,6 @@ $$
 
 10. Given a function $f(x)$ that is invertible, compute the derivative of its inverse $f^{-1}(x)$. Here we have that $f^{-1}(f(x)) = x$ and conversely $f(f^{-1}(y)) = y$. Hint: use these properties in your derivative.
 
-
 $$
 \begin{aligned}
 \text{Let } g &= f^{-1}(x) \\
@@ -195,6 +192,5 @@ x &= f(g) \\
 \frac{d}{dx}x &= \frac{d}{dx}f(g) \\
 1 &= f'(g)(f^{-1})'(x) \\
 (f^{-1})'(x) &= \frac{1}{f'(g)}
-
 \end{aligned}
 $$
