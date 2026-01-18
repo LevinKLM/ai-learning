@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.734,
+  "avg_loss": 2.431832285509223,
+  "total_samples": 500,
+  "correct_predictions": 367,
+  "model_name": "Qwen/Qwen2.5-0.5B + Prompt Tuning",
+  "is_peft": true,
+  "timestamp": "2026-01-18T19:44:38.970581"
+}

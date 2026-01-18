@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.432,
+  "avg_loss": 2.475537499738118,
+  "total_samples": 500,
+  "correct_predictions": 216,
+  "model_name": "Qwen/Qwen2.5-0.5B (Baseline)",
+  "is_peft": false,
+  "timestamp": "2026-01-18T19:18:53.665156"
+}

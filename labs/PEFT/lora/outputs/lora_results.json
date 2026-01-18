@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.94,
+  "avg_loss": 0.21576322893939967,
+  "total_samples": 500,
+  "correct_predictions": 470,
+  "model_name": "Qwen/Qwen2.5-0.5B + LoRA",
+  "is_peft": true,
+  "timestamp": "2026-01-18T20:07:01.175370"
+}
